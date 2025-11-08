@@ -1,5 +1,9 @@
 # PaperFold-Puzzles
 
+## Repository
+
+https://github.com/hznuer/PFP_bench.git
+
 ## Overview
 
 This repository contains the implementation and datasets for our research paper.
