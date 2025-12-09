@@ -1,0 +1,28 @@
+{
+  "name": "ICML图形推理测试",
+  "description": "按 task 组织，每个 task 具有 size/batch_size/data_set/description 与唯一邀请码映射",
+  "tasks": [
+    {
+      "task": "task1",
+      "description": "Single Q&A",
+      "size": 250,
+      "batch_size": 25,
+      "data_set": { "base_url": "https://example.com/icml2026/task1" },
+      "invites": [
+        "ICML2026-T1-001","ICML2026-T1-002","ICML2026-T1-003","ICML2026-T1-004","ICML2026-T1-005",
+        "ICML2026-T1-006","ICML2026-T1-007","ICML2026-T1-008","ICML2026-T1-009","ICML2026-T1-010"
+      ]
+    },
+    {
+      "task": "task2",
+      "description": "Double Q&A",
+      "size": 250,
+      "batch_size": 25,
+      "data_set": { "base_url": "https://example.com/icml2026/task2" },
+      "invites": [
+        "ICML2026-T2-001","ICML2026-T2-002","ICML2026-T2-003","ICML2026-T2-004","ICML2026-T2-005",
+        "ICML2026-T2-006","ICML2026-T2-007","ICML2026-T2-008","ICML2026-T2-009","ICML2026-T2-010"
+      ]
+    }
+  ]
+}
